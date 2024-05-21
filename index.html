@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img class="header" src="images/headerGeek.png" alt="">
+    </header>
+
+    <main class="main">
+        <section class="productos" >
+            <h1>MIS PRODUCTOS:</h1>
+
+            <ul class="productos__container" data-lista >
+
+                <li class="produc__item" >
+                    <div class="contenido">
+                        <img src="https://images.cdn2.buscalibre.com/fit-in/360x360/2e/9e/2e9ef3597f6c36fb4369fded8f3ddfd5.jpg" alt="">
+                        <h3>Marvel Comics</h3>
+                        <div class="descrip">
+                            <p>$ 60,00 </p>
+                            <button class="btn-trash">
+                                <img src="images/trash-bin.png" alt="" >
+                            </button>
+                        </div>
+                    </div>
+                </li>                    
+            </ul>
+
+        </section>
+
+        <section class="form">
+            <h1>AGREGAR <br> PRODUCTO:</h1>
+            <form class="container__formulario" data-formulario>
+                <div class="inputs">
+                    <input name="nombre" class="campo" required placeholder="nombre..." data-nombre>
+                </div>
+                <div class="inputs">
+                    <input name="precio" class="campo" required placeholder="precio..." data-precio>
+                </div>
+                <div class="inputs">
+                    <input name="imagen" class="campo" required placeholder="imagen..." data-imagen>
+                </div>
+                <div class="botones">
+                    <button class="btn-enviar" enviar>Enviar</button>
+                    <button class="btn-limpiar">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="footer-img" src="images/headerGeek.png" alt="">
+        <div class="footer-div">
+            <p>DESARROLLADO POR CHRIS VILLANUEVA</p>
+            <p class="p">PROYECTO ALURA - 2024</p>
+        </div>
+    </footer>
+
+
+
+    <script src="/js/crearProducto.js" type="module"></script>
+    <script src="/js/mostrarProducto.js" type="module"></script>
+    <script src="/js/eliminarProducto.js" ></script>
+</body>
+</html>

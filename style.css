@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    width: 100%;
+    height: 96px;
+    margin-bottom: 50px;
+}
+
+main{
+    width: 1280px;
+    height: 1235px;
+    display: flex;
+    flex-direction:row;
+    margin: 50px 30px;
+    gap: 20px;
+    
+}
+
+
+/* seccion productos */
+
+.productos{
+    margin: 40px;
+    text-align: center;
+    width: 804px;
+    overflow: auto;
+    /* border: none; */
+    height: 1115px;
+    box-shadow: -10px 15px 15px -10px black;
+}
+
+.productos::-webkit-scrollbar{
+    border: none;
+}
+
+
+
+.productos__container{
+    margin: 40px;
+    margin-top: 60px;
+    /* overflow: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 70px 10px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.produc__item{
+    width: 196px;
+    height: 258px;
+    background: #5d04d9;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: -10px 9px 9px -10px black;
+    
+}
+
+.produc__item img{
+    width: 176px;
+    height: 174px;
+    
+}
+.produc__item h3{
+    font-weight: lighter;
+    
+}
+
+.contenido{
+    padding: 8px;
+    color: white;
+}
+
+.descrip{
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descrip img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.btn-trash{
+    background-color: #5d04d9;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* seccion formulario */
+
+.form{
+    margin: 40px;
+    width: 450px;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    
+}
+
+.container__formulario{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.container__formulario .botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.campo{
+    width: 392px;
+    height: 58px;
+    border-radius: 25px;
+    padding: 1em;
+    border: 3px solid #03318c;
+    color: #03318c;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+.campo::placeholder{
+    color: #03318c;
+    font-size: 19px;
+    font-weight: 550;
+}
+.campo:focus{
+    outline: none;
+    box-shadow:  3px 4px 4px 3px #03318c;
+}
+
+.btn-enviar{
+    width: 188px;
+    height: 55px;
+    background-color: #03318c;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.btn-limpiar{
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: white;
+    color: #03318c;
+    border: 3px solid #03318c;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+/*seccion footer*/
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-div{
+    width: 100%;
+    padding: 50px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(83,0,200);
+    margin-top: -15px;
+    row-gap: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.footer-div .p{
+    color: rgb(233,223,248);
+    font-size: x-small;
+    
+}

@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "nombre": "Hombre Araña",
+      "precio": "$ 10,00",
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/2e/9e/2e9ef3597f6c36fb4369fded8f3ddfd5.jpg",
+      "id": "1"
+    },
+    {
+      "id": "6941",
+      "nombre": "Marvel Comics",
+      "precio": "$ 60,00",
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/2e/9e/2e9ef3597f6c36fb4369fded8f3ddfd5.jpg"
+    },
+    {
+      "id": "18f9",
+      "nombre": "Star Wars",
+      "precio": "$ 65,00",
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/12684746-1000-1000/imageUrl_4.jpg?v=638053550716400000"
+    },
+    {
+      "id": "3140",
+      "nombre": "Star Wars",
+      "precio": "$150,00",
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/12684746-1000-1000/imageUrl_4.jpg?v=638053550716400000"
+    },
+    {
+      "id": "8a13",
+      "nombre": "Star Wars",
+      "precio": "$1000",
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/12684746-1000-1000/imageUrl_4.jpg?v=638053550716400000"
+    },
+    {
+      "id": "22c1",
+      "nombre": "Star Wars",
+      "precio": "$ 60,00",
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/12684746-1000-1000/imageUrl_4.jpg?v=638053550716400000"
+    },
+    {
+      "id": "2442",
+      "nombre": "Star Wars",
+      "precio": "$1000",
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/2e/9e/2e9ef3597f6c36fb4369fded8f3ddfd5.jpg"
+    }
+  ]
+}
